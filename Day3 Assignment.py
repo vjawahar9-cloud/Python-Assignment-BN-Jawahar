@@ -1,6 +1,6 @@
 #Question 1
 
-'''level1= int(input("Enter level one score"))
+level1= int(input("Enter level one score"))
 
 if level1>7:
     print("level1 round is clear")
@@ -15,7 +15,7 @@ if level1>7:
     else:
         print("rejected in level two")
 else:
-     print("rejected in level one")'''
+     print("rejected in level one")
 
 
 

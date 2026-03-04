@@ -55,6 +55,18 @@ for student in students:
         print(student['name'])
 
 
+        #output:
+             #students above 80 average
+                #1.Arun
+                #2.Chitra
+
+
+
+
+
+
+
+
 
 
 

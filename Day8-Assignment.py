@@ -30,15 +30,15 @@ for student in students:
 
 
 #2.find highest average
-    name = ''
+    student_name = ''
     highest_average = 0
 
 
 for student in students:
     if student['average']> highest_average:
         highest_average=student['average']
-        name = student['name']
-print("highest average:", name, "=",highest_average)
+        student_name = student['name']
+print("highest average:",student_name, "=",highest_average)
 
 
      #output:
@@ -55,16 +55,10 @@ for student in students:
         print(student['name'])
 
 
-        #output:
+ #output:
              #students above 80 average
                 #1.Arun
                 #2.Chitra
-
-
-
-
-
-
 
 
 

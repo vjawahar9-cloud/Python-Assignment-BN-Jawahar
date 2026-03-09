@@ -1,6 +1,6 @@
 # 1. find biggest number in the list
 
-list_elements =[200,500,2000,800,700]
+list_elements =[80,160,240,320,400]
 
 assign_big = 0
 

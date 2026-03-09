@@ -8,6 +8,7 @@ def total_price1():
     print("total price=",total)
 
 total_price1()
+                               #output: total price= 200
 
 
 
@@ -20,6 +21,7 @@ def total_price2(price,quantity):
 price=200
 quantity=4
 total_price2(price,quantity)
+                               #output:total price 800
 
 
 
@@ -32,6 +34,7 @@ def total_price3():
 
 result=total_price3()
 print("total price=",result)
+                               #output:total price= 600
 
 
 
@@ -44,6 +47,7 @@ price=400
 quantity=3
 result=total_price4(price,quantity)
 print("total price=",result)
+                                #output:total price= 1200
 
 
 

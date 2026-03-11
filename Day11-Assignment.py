@@ -120,7 +120,41 @@ if attempt==3:
     print("Account locked")
 
 
-                       #output:
+                       '''output:Enter the usernamejoe
+                               Enter the password1234
+                               invalid
+                               
+                               Enter the usernameanand
+                               Enter the password1234
+                               invalid
+                               
+                               Enter the usernamejeeva
+                               Enter the password1234
+                               invalid
+                               Account locked'''
+
+
+
+'''5.Question:
+User keeps entering numbers.
+Program should add the numbers using a loop.
+
+Condition:
+
+If user enters 0, stop the loop and print the total sum.'''
+
+
+'''total = 0
+
+while True:
+    num = int(input("Enter a number: "))
+    
+    if num == 0:
+        break
+    
+    total = total + num
+
+print("Total Sum =", total)'''
     
         
 

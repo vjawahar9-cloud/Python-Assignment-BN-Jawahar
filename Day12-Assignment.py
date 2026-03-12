@@ -46,15 +46,19 @@
 
 #3.Sort the letter in a word
 
-word=input("Enter the word")
+##word=input("Enter the word")
+##
+##sorted_word="".join(sorted(word))
+##
+##print("sorted letters",sorted_word)
+##
+##
+##
+##                                        #output:
+##                                              Enter the word :jawahar
+##                                            sorted letters  :aaahjrw
 
-sorted_word="".join(sorted(word))
 
-print("sorted letters",sorted_word)
-
-
-
-                                        #output:
                                             
 
 

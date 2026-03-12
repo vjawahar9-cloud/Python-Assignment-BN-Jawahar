@@ -24,19 +24,61 @@
 
 #2.Remove duplicates words from string
 
-text1=input("Enter the words")
-text2=text1.split()
-result=[]
-
-for word in text2:
-    if word not in result:
-        result.append(word)
-
-        print("result","".join(result))
+##text1=input("Enter the words")
+##text2=text1.split()
+##result=[]
+##
+##for word in text2:
+##    if word not in result:
+##        result.append(word)
+##
+##        print("result","".join(result))
 
 
 ##                                         output:
-##                                             Enter the word:Geeks for Geeks
+##                                             Enter the word :Geeks for Geeks
+                                               
+##                                                           result geeks
+##                                                           result geeksfor
+##
+
+
+
+#3.Sort the letter in a word
+
+word=input("Enter the word")
+
+sorted_word="".join(sorted(word))
+
+print("sorted letters",sorted_word)
+
+
+
+                                        #output:
+                                            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         
         

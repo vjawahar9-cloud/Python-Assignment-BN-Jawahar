@@ -2,25 +2,25 @@
 
 #1.Implement multithreading for any real time example
 
-##import time
-##import threading
-##
-##
-##def youtube_video():
-##    for i in range(3):
-##        time.sleep(1)
-##        print("video playing...")
-##
-##def youtube_comments():
-##    for i in range(3):
-##        time.sleep(3)
-##        print("loading comments...")
-##
-##t1=threading.Thread(target=youtube_video)
-##t2=threading.Thread(target=youtube_comments)
-##
-##t1.start()
-##t2.start()
+import time
+import threading
+
+
+def youtube_video():
+    for i in range(3):
+        time.sleep(1)
+        print("video playing...")
+
+def youtube_comments():
+    for i in range(3):
+        time.sleep(3)
+        print("loading comments...")
+
+t1=threading.Thread(target=youtube_video)
+t2=threading.Thread(target=youtube_comments)
+
+t1.start()
+t2.start()
 
 
 

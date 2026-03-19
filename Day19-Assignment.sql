@@ -1,11 +1,11 @@
 
-CREATE DATABASE IF NOT EXISTS userdb;
+CREATE DATABASE  userdb;
 
 
 USE userdb;
 
 
-CREATE TABLE IF NOT EXISTS userlogin (
+CREATE TABLE userlogin (
     userid INT PRIMARY KEY,
     username VARCHAR(30),
     userpassword VARCHAR(30)

@@ -19,5 +19,9 @@ b.displaydetails()
 
 
 #output
+BIKE NAME :  R15
+BIKE PRICE :  195000
+BIKE CC :  155
+
                            
 

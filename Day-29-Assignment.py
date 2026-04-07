@@ -1,11 +1,12 @@
 #1.Comprehension function
 
-'''customers = [
+customers = [
     {"name" : "sudhakar","feedback" : "food is good"},
     {"name" : "edwin","feedback" : "food is ok"},
     {"name" : "prem","feedback" : "food is fine"},
     {"name" : "malik","feedback" : "food is well"}
     ]
+
 
 customers = [cus for cus in customers if "good" in cus["feedback"]]
 
@@ -14,7 +15,7 @@ print(customers)
 
 
 #output:
-          [{'name': 'sudhakar', 'feedback': 'food is good'}]'''
+          [{'name': 'sudhakar', 'feedback': 'food is good'}]
 
 
 
@@ -36,3 +37,10 @@ def sayhello():
         print("wait a minute")
 
 sayhello()
+
+
+#output:
+      ...Welcome to my project...
+            wait a minute
+          ...Lets start...
+
